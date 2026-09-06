@@ -82,8 +82,8 @@
         <!-- =================================================
              REGISTRATION FORM
         ================================================== -->
-        <form th:action="@{/login}"
-              method="get">
+        <form th:action="@{/loginform}"
+             th:object="${sita}" method="get">
 
 
             <!-- Full Name -->
